@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+</head>
+<body>
+    <div id="root">
+        <div class="container">
+            <tabs>
+                    <tab name="Home" :selected="true">
+                        <h1>Here is the content for About Us</h1>
+                    </tab>
+                    <tab name="About Me">
+                        <h1>Here is the content for Our Culture</h1>
+                    </tab>
+                    <tab name="Portfolio">
+                        <h1>Here is the content for Our Vision</h1>
+                    </tab>
+                    <tab name="Contact" :selected="true">
+                        <h1>Here is the content for About Us</h1>
+                        </tab>
+                        <tab name="Gallery">
+                            <h1>Here is the content for Our Culture</h1>
+                        </tab>
+                        <tab name="Careers">
+                            <h1>Here is the content for Our Vision</h1>
+                        </tab>
+                </tabs>
+        </div>
+            
+    </div>
+
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
